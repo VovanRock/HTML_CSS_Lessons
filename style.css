@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  font-size: 12px;
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  color: #0f141e;
+  background: #f1f1f1;
+}
+
+.photo{
+  border-radius: 15px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+p {
+  border: 2px solid #000;
+  width: 200px;
+  padding: 10px;
+  background: #7e8696;
+  border-radius: 15px;
+}
+
+.card {
+  border: 2px solid #0f141e;
+  border-radius: 15px;
+  background: #7e8696;
+  width: 300px;
+  margin: 10px 0px 10px 0px;
+}
+
+.container {
+  width: 500px;
+  align-self: center;
+  margin: auto;
+}
+
+.input{
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 0.7rem;
+  color: #7e8696;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.btn{
+  border: 2px solid #0f141e;
+  border-radius: 10px;
+  background: #7e8696;
+  font-family: inherit;
+  padding: 10px 5px;
+}
+
+.btn:hover {
+  border: 2px solid #7e8696;
+  border-radius: 10px;
+  background: #0f141e;
+  font-family: inherit;
+  color: #7e8696;
+  cursor: pointer;
+}
+
+a {
+  color:#0f141e;
+  transition: 0.3s;
+  padding-top: 10px;
+}
+
+.links {
+  margin: 15px 0 15px 0;
+  height: 50px;
+}
+
+a:hover {
+  border: 2px solid #0f141e;
+  border-radius: 5px;
+  font-size: larger;
+  cursor: pointer;
+  padding: 5px;
+}
+
+a:active {
+  border: 2px solid #0f141e;
+  font-size: larger;
+}
+
+a:visited {
+  font-size: smaller;
+  color: #7e8696;
+}
+
+.alarm .message {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  .alarm {
+    height: 105vh;
+    width: 100vw;
+    background: #f1f1f1;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .message {
+    z-index: 50;
+    position: absolute;
+    top: 10%;
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+  }
+}
