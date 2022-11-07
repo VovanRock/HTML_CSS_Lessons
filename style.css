@@ -90,7 +90,7 @@ a:visited {
   color: #7e8696;
 }
 
-.alarm .message {
+.alarm, .message {
   display: none;
 }
 
